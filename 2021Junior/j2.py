@@ -1,3 +1,5 @@
+# Return who is the first to bid the most.
+
 userInput = input()
 userInput = userInput.split(" ")
 
@@ -14,3 +16,6 @@ for i in range(int(userInput[0])):
         name = userInput[count - 1]
 
 print(name)
+
+>>> 3 Ahmed 300 Suzanne 500 Ivona 450
+    Ivona
