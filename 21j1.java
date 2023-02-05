@@ -7,8 +7,11 @@ public class Main {
   public static void main(String[] args) {
     Scanner myObj = new Scanner(System.in);
     int B = myObj.nextInt();
+    myObj.close();
+    
     int Pressure = B * 5 - 400;
     System.out.println(Pressure);
+    
     if (Pressure > 100) {
       System.out.println(-1);
     } else if (Pressure == 100) {
