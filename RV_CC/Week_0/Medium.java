@@ -5,10 +5,10 @@ public class Main
 	private static Scanner scan = new Scanner(System.in);
 	
 	public static void main(String[] args) {
-		q1();
+		q2();
 	}
 	
-	public static void q1() {
+	public static void q2() {
 	    System.out.println("Enter Integer: ");
 	    int userInput = scan.nextInt();
         for (int j = 0; j < userInput; j++) {
